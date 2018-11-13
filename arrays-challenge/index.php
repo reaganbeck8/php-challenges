@@ -9,11 +9,11 @@
     <?php
     
     
-    $food = array('apple', 'avocado', 'nectarine','pumpkin', 'carrot');
-
-    var_dump($food);
-
-    array_shift($food[0]);
+    
+    $fruitsveg = array('apple', 'avocado', 'nectarine','pumpkin', 'carrot');
+    $results = array_slice($fruitsveg,0,1);
+    print_r($results);
+    echo end($fruitsveg);
 
     ?>
 </body>
