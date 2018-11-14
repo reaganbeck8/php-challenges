@@ -13,7 +13,12 @@
     $fruitsveg = array('apple', 'avocado', 'nectarine','pumpkin', 'carrot');
     $results = array_slice($fruitsveg,0,1);
     print_r($results);
+
     echo end($fruitsveg);
+
+    array_push($fruitsveg, "plum");
+
+    echo ($fruitsveg);
 
     ?>
 </body>
