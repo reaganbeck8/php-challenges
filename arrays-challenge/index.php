@@ -70,5 +70,20 @@
 
     echo $separatedByCommas;
     ?>
+
+    <h2>Task 2</h2>
+    <?php 
+// This is an associative array which contains some informatin about myself    
+    $reaganArray = array('height'=>198, 'age'=>21, 'shoeSize'=>8);
+
+    var_dump($reaganArray);
+//adding 10 centimeters to my height
+    $reaganArray['height'] = 198 + 10;
+
+    echo $reaganArray['height'];
+    echo $reaganArray;
+    
+    
+    ?>
 </body>
 </html>
