@@ -23,7 +23,7 @@
         
         $time = '9';
 
-        $break = ' '; 
+        $break = "</br>"; 
 
         // name - WHITESPACE TRIM
 
@@ -54,6 +54,9 @@
         $story = "$name is a $job. He drives a $car and works $time hours a day. He is $age years old and is $yearsTillretirement years from retirement. He is happy with his life.";
 
         echo $story;
+
+
+        
     ?>
 </body>
 </html>
